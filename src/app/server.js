@@ -16,7 +16,8 @@ app.set('view engine', 'handlebars');
 // Configuration
 
 var port = process.env.PORT || 8080;
-var message = process.env.MESSAGE || 'Hello Vivek Reddy!';
+//var message = process.env.MESSAGE || 'Hello Vivek Reddy!';
+var message = 'Hello Vivek Reddy!';
 var renderPathPrefix = (
   process.env.RENDER_PATH_PREFIX ? 
     '/' + process.env.RENDER_PATH_PREFIX.replace(/^[\\/]+/, '').replace(/[\\/]+$/, '') :
